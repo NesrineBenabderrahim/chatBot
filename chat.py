@@ -26,7 +26,7 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "Sam"
+bot_name = "Pizza Time Bot"
 def normalize_text(text):
     return ''.join(
         c for c in unicodedata.normalize('NFKD', text)

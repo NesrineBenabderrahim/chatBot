@@ -1,3 +1,5 @@
+import nltk
+nltk.data.path.append('./nltk_data')
 import numpy as np
 import random
 import json
